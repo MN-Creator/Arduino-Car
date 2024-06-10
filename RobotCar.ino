@@ -80,7 +80,7 @@ void TurnRight()
   motorShield.getMotor(1)->run(RELEASE);
   motorShield.getMotor(2)->run(FORWARD);
   motorShield.getMotor(3)->run(FORWARD);
-  motorShield.getMotor(1)->run(RELEASE);
+  motorShield.getMotor(4)->run(RELEASE);
 }
 
 void TurnLeft()
